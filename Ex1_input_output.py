@@ -21,7 +21,9 @@
 name = input("What is your name?")
 print(f"Hello, " + name +"!")
 age = int(input("How old are you?"))
-print(f"Hello {name}, next year you will be {age + 1}!")
+favouriteColour = input("What is your favourite colour?")
+favouriteFood = input("What is your favourite food?")
+print(f"Hello {name}, next year you will be {age + 1}. Your favourite colour is {favouriteColour} and you are really like {favouriteFood}!")
 # ---------------------------
 # Step 2: Git Task
 # ---------------------------
